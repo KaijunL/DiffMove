@@ -1,7 +1,7 @@
-# 5322
+# DiffMove
 ## Overview
 
-This is the github repository for the submission 5322. We introduce a conditional diffusion-based trajectory recovery method. It first transforms locations in trajectories into the embedding space, in which the embedding denoising is performed, and then missing locations are recovered by an embedding decoder. The proposed model not only improves accuracy by introducing high-quality generative methods in the trajectory recovery, but also carefully models the transition, spatial, and temporal patterns in human mobility. 
+This is the github repository for DiffMove. We introduce a conditional diffusion-based trajectory recovery method. It first transforms locations in trajectories into the embedding space, in which the embedding denoising is performed, and then missing locations are recovered by an embedding decoder. The proposed model not only improves accuracy by introducing high-quality generative methods in the trajectory recovery, but also carefully models the transition, spatial, and temporal patterns in human mobility. 
 
 ![Figure_1](https://github.com/user-attachments/assets/7abdc991-0fa9-4591-a974-dc0bedbef130)
 
@@ -13,7 +13,7 @@ Provide instructions on how to install the project. Include the commands to clon
 
 ```bash
 git clone <this_http_link>
-cd 5322
+cd DiffMove
 pip install -r requirements.txt
 ```
 
